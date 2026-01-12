@@ -41,13 +41,6 @@ cv:
           - "**Web Projects**: Developed web applications with Next.js, React, Node.js, and Golang for real clients across different domains."
           - "**Atlas Internal Management**: Acted as Project Manager for Atlas, an internal management application built with Next.js and Golang."
           - "**Financial Leadership**: Managed the administrative-financial sector, handling budgeting, cash flow, and resource management."
-      - company: Unifametro Cascavel
-        position: IT Technician
-        location: Cascavel, Brazil
-        start_date: 2021-09
-        end_date: 2021-12
-        highlights:
-          - "**Technical Support**: Provided technical support for infrastructure, handling tickets, computer maintenance, and general assistance."
     education:
       - institution: Federal University of Ceará
         area: Computer Science
@@ -73,7 +66,7 @@ design:
 locale:
   language: english
 settings:
-  current_date: '2026-01-12'
+  current_date: "2026-01-12"
   render_command:
     design:
     locale:

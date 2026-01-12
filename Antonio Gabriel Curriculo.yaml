@@ -68,11 +68,11 @@ cv:
         details: Git, Docker, AWS, SCRUM, Casbin, PostgreSQL, MongoDB, JUnit, Railway
 
 design:
-  theme: sb2nov
+  theme: engineeringclassic
 locale:
   language: portuguese
 settings:
-  current_date: '2026-01-12'
+  current_date: "2026-01-12"
   render_command:
     design:
     locale:

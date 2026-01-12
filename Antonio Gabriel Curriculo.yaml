@@ -1,0 +1,86 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Antonio Gabriel Carmo Rego
+  headline: Engenheiro de Software
+  location: Fortaleza, CE
+  email: antgabriel.dev@gmail.com
+  phone: "+55 (85) 98951-1803"
+  social_networks:
+    - network: LinkedIn
+      username: antgabriel
+    - network: GitHub
+      username: ArtroxGabriel
+  sections:
+    perfil:
+      - "Engenheiro de Software dinâmico com 2 anos de experiência profissional em projetar, desenvolver e implantar aplicações e plataformas web escaláveis. Proficiente em um stack abrangente, incluindo Golang, Java (Spring Boot), Node.js, Typescript, React.js, e Next.js. Habilidoso tanto no desenvolvimento frontend quanto backend, com expertise na implementação de controle de acesso robusto, autenticação e processos de implantação contínua usando Docker e AWS."
+    experiencia_profissional:
+      - company: GREat
+        position: Engenheiro de software júnior
+        location: Fortaleza, Brasil
+        start_date: 2025-06
+        end_date: present
+      - company: Golden Cloud Technology
+        position: Engenheiro de software júnior
+        location: Fortaleza, Brasil
+        start_date: 2025-01
+        end_date: 2025-06
+        highlights:
+          - "**Desenvolvimento de Plataforma**: Atuação no desenvolvimento full stack de uma plataforma utilizando Next.js e Go, com foco em arquitetura web moderna e escalável."
+          - "**Controle de Acesso e Autenticação**: Implementação de controle de permissões no backend com Casbin e autenticação no frontend com NextAuth."
+      - company: GREat
+        position: Desenvolvedor Full Stack
+        location: Fortaleza, Brasil
+        start_date: 2023-09
+        end_date: 2024-12
+        highlights:
+          - "**Big Data Fortaleza**: Contribui na construção de uma plataforma de análise de dados com Java, Typescript e PostgreSQL. Desenvolvi uma API Restful com Spring Boot, testes automatizados (JUnit), e documentação OpenAPI, além de uma interface web moderna com React.js, Material UI e Redux."
+          - "**Funções Serverless**: Desenvolvi funções serverless com Python para AWS Lambda, permitindo processamento eficiente e escalável de dados em nuvem."
+          - "**Deploy com Docker e Railway**: Orquestrei o deploy de versões da plataforma e API utilizando Docker e a plataforma Railway, garantindo entregas contínuas e confiáveis."
+          - "**Projeto D-CREA**: Contribuí para o desenvolvimento e manutenção de aplicação com AngularJS, Node.js e MongoDB, com foco na correção de bugs e eliminação de erros críticos."
+      - company: CEOS Jr
+        position: Desenvolvedor Full Stack e Gerente de Projeto
+        location: Fortaleza, Brasil
+        start_date: 2023-04
+        end_date: 2024-04
+        highlights:
+          - "**Projetos Web**: Desenvolvi aplicações web com Next.js, React, Node.js e Golang para clientes reais em diferentes domínios."
+          - "**Atlas Gestão Interna**: Atuei como Project Manager do Atlas, uma aplicação de gestão interna construída com Next.js e Golang."
+          - "**Liderança Financeira**: Fui gerente do setor administrativo-financeiro, lidando com organização orçamentária e gestão de recursos."
+    educacao:
+      - institution: Universidade Federal do Ceará
+        area: Ciência da Computação
+        degree: Bacharel
+        location: Fortaleza, Brasil
+        start_date: 2022-03
+        end_date: 2026-12
+      - institution: EEEP Edson Queiroz
+        area: Tecnologia da Informação
+        degree: Técnico
+        location: Cascavel, Brasil
+        start_date: 2019-01
+        end_date: 2021-12
+    skills:
+      - label: Languages
+        details: Go, Java, Javascript, Python, SQL, Typescript
+      - label: Frameworks
+        details: Spring Boot, React.js, Next.js, Node.js, go-chi, AngularJS
+      - label: Technologies
+        details: Git, Docker, AWS, SCRUM, Casbin, PostgreSQL, MongoDB, JUnit, Railway
+
+design:
+  theme: sb2nov
+locale:
+  language: portuguese
+settings:
+  current_date: '2026-01-12'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_png: true
+  bold_keywords: []

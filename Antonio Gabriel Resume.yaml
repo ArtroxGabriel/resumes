@@ -1,0 +1,90 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Antonio Gabriel Carmo Rego
+  headline: Software Engineer
+  location: Fortaleza, CE
+  email: antgabriel.dev@gmail.com
+  phone: "+55 (85) 98951-1803"
+  social_networks:
+    - network: LinkedIn
+      username: antgabriel
+    - network: GitHub
+      username: ArtroxGabriel
+  sections:
+    summary:
+      - "Dynamic Software Engineer with 2 years of professional experience in designing, developing, and deploying scalable web applications and platforms. Proficient in a comprehensive stack, including Golang, Java (Spring Boot), Node.js, Typescript, React.js, and Next.js. Skilled in both frontend and backend development, with expertise in implementing robust access control, authentication, and continuous deployment processes using Docker and AWS."
+    experience:
+      - company: Golden Cloud Technology
+        position: Junior Software Engineer
+        location: Fortaleza, Brazil
+        start_date: 2025-01
+        end_date: 2025-06
+        highlights:
+          - "**Platform Development**: Engaged in full-stack development of a platform using Next.js and Go, focusing on modern and scalable web architecture."
+          - "**Access Control and Authentication**: Implemented permission control in the backend with Casbin and authentication in the frontend with NextAuth."
+      - company: GREat
+        position: Full Stack Developer
+        location: Fortaleza, Brazil
+        start_date: 2023-09
+        end_date: 2024-12
+        highlights:
+          - "**Big Data Fortaleza**: Contributed to building a data analysis platform with Java, Typescript, and PostgreSQL. Developed a Restful API with Spring Boot, automated tests (JUnit), and OpenAPI documentation."
+          - "**Serverless Functions**: Developed serverless functions with Python for AWS Lambda, enabling efficient and scalable cloud data processing."
+          - "**Deployment**: Orchestrated platform and API version deployments using Docker and the Railway platform, ensuring continuous and reliable deliveries."
+          - "**D-CREEA Project**: Contributed to the development and maintenance of an application with AngularJS, Node.js, and MongoDB, focusing on bug fixing and critical error elimination."
+      - company: CEOS Jr
+        position: Full Stack Developer and Project Manager
+        location: Fortaleza, Brazil
+        start_date: 2023-04
+        end_date: 2024-04
+        highlights:
+          - "**Web Projects**: Developed web applications with Next.js, React, Node.js, and Golang for real clients across different domains."
+          - "**Atlas Internal Management**: Acted as Project Manager for Atlas, an internal management application built with Next.js and Golang."
+          - "**Financial Leadership**: Managed the administrative-financial sector, handling budgeting, cash flow, and resource management."
+      - company: Unifametro Cascavel
+        position: IT Technician
+        location: Cascavel, Brazil
+        start_date: 2021-09
+        end_date: 2021-12
+        highlights:
+          - "**Technical Support**: Provided technical support for infrastructure, handling tickets, computer maintenance, and general assistance."
+    education:
+      - institution: Federal University of Ceará
+        area: Computer Science
+        degree: Bachelor's Degree
+        location: Fortaleza, Brazil
+        start_date: 2022-03
+        end_date: 2026-12
+      - institution: EEEP Edson Queiroz
+        area: Information Technology
+        degree: Technical Degree
+        location: Cascavel, Brazil
+        start_date: 2019-01
+        end_date: 2021-12
+    skills:
+      - label: Languages
+        details: Go, Java, Javascript, Python, SQL, Typescript
+      - label: Frameworks
+        details: Spring Boot, React.js, Next.js, Node.js, go-chi, AngularJS
+      - label: Technologies
+        details: Git, Docker, AWS, SCRUM, Casbin, PostgreSQL, MongoDB, JUnit, Railway
+design:
+  theme: engineeringclassic
+locale:
+  language: english
+settings:
+  current_date: '2026-01-12'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []

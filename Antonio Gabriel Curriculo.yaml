@@ -19,6 +19,11 @@ cv:
         location: Fortaleza, Brasil
         start_date: 2025-06
         end_date: present
+        highlights:
+          - "**Desenvolvimento de Micro-frontends**: Implementação de um micro-frontend (MFE) utilizando Angular e TypeScript, realizando a integração técnica com o Shell MFE para garantir a modularidade do sistema."
+          - "**Qualidade de Software**: Desenvolvimento de suíte de testes unitários com Jest, alcançando um threshold de 70% de cobertura de código para garantir a estabilidade das funcionalidades."
+          - "**Otimização de Performance e UX**: Implementação de soluções no frontend para otimizar o carregamento e a exibição de grandes volumes de dados, focando na fluidez da interface e experiência do usuário."
+          - "**Manutenção e Evolução**: Atuação na sustentação e adição de novas funcionalidades em aplicações baseadas em Angular, seguindo padrões de arquitetura modernos."
       - company: Golden Cloud Technology
         position: Engenheiro de software júnior
         location: Fortaleza, Brasil

@@ -14,6 +14,16 @@ cv:
     summary:
       - "Dynamic Software Engineer with 2 years of professional experience in designing, developing, and deploying scalable web applications and platforms. Proficient in a comprehensive stack, including Golang, Java (Spring Boot), Node.js, Typescript, React.js, and Next.js. Skilled in both frontend and backend development, with expertise in implementing robust access control, authentication, and continuous deployment processes using Docker and AWS."
     experience:
+      - company: GREat
+        position: Junior Software Engineer
+        location: Fortaleza, Brazil
+        start_date: 2025-06
+        end_date: present
+        highlights:
+          - "**Micro-frontend Development**: Implemented a micro-frontend (MFE) using Angular and TypeScript, performing technical integration with the Shell MFE to ensure system modularity."
+          - "**Software Quality**: Developed a unit testing suite with Jest, achieving a 70% code coverage threshold to ensure functional stability."
+          - "**Performance & UX Optimization**: Implemented frontend solutions to optimize loading and rendering of large datasets, focusing on interface fluidity and user experience."
+          - "**Maintenance & Evolution**: Sustained and developed new features for Angular-based applications, adhering to modern architectural patterns."
       - company: Golden Cloud Technology
         position: Junior Software Engineer
         location: Fortaleza, Brazil

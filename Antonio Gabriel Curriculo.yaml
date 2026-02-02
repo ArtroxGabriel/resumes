@@ -82,10 +82,10 @@ settings:
     design:
     locale:
     typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    pdf_path: pdfs/Antonio Gabriel Curriculo.pdf
     dont_generate_typst: false
     dont_generate_pdf: false
-    dont_generate_markdown: true
     dont_generate_html: true
+    dont_generate_markdown: true
     dont_generate_png: true
   bold_keywords: []

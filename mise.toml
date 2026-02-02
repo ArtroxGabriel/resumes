@@ -18,3 +18,8 @@ run = "rendercv render 'Antonio Gabriel Resume.yaml'"
 [tasks.watch-en]
 description = "Watch and re-render the English resume on changes"
 run = "rendercv render 'Antonio Gabriel Resume.yaml' --watch"
+
+[tasks.all]
+description = "Render all resumes"
+depends = ["pt", "en"]
+run = "echo 'All resumes rendered.'"

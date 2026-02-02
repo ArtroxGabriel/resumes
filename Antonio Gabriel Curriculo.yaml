@@ -12,7 +12,7 @@ cv:
       username: ArtroxGabriel
   sections:
     perfil:
-      - "Engenheiro de Software dinâmico com 2 anos de experiência profissional em projetar, desenvolver e implantar aplicações e plataformas web escaláveis. Proficiente em um stack abrangente, incluindo Golang, Java (Spring Boot), Node.js, Typescript, React.js, e Next.js. Habilidoso tanto no desenvolvimento frontend quanto backend, com expertise na implementação de controle de acesso robusto, autenticação e processos de implantação contínua usando Docker e AWS."
+      - "Engenheiro de Software com mais de 2 anos de experiência profissional no desenvolvimento de arquiteturas full-stack escaláveis. Possuo um histórico comprovado na implementação de micro-frontends modulares e sistemas de backend robustos utilizando Go, Java (Spring Boot) e TypeScript. Especialista na aplicação de frameworks de autenticação segura e no refinamento de processos de deploy em nuvem via Docker e AWS. Focado na qualidade de software e excelência técnica, com experiência sólida em manter altos padrões de testes unitários e otimizar a performance de plataformas de dados em larga escala."
     experiencia_profissional:
       - company: GREat
         position: Engenheiro de software júnior

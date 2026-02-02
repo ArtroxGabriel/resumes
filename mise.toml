@@ -1,7 +1,6 @@
 [tools]
 python = "3.14"
 
-
 [tasks.pt]
 description = "Render the Portuguese resume"
 run = "rendercv render 'Antonio Gabriel Curriculo.yaml'"
@@ -9,7 +8,6 @@ run = "rendercv render 'Antonio Gabriel Curriculo.yaml'"
 [tasks.watch-pt]
 description = "Watch and re-render the Portuguese resume on changes"
 run = "rendercv render 'Antonio Gabriel Curriculo.yaml' --watch"
-
 
 [tasks.en]
 description = "Render the English resume"
@@ -21,5 +19,4 @@ run = "rendercv render 'Antonio Gabriel Resume.yaml' --watch"
 
 [tasks.all]
 description = "Render all resumes"
-depends = ["pt", "en"]
-run = "echo 'All resumes rendered.'"
+run = [{ tasks = ["pt", "en"] }]

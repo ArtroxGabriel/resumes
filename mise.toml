@@ -1,0 +1,20 @@
+[tools]
+python = "3.14"
+
+
+[tasks.pt]
+description = "Render the Portuguese resume"
+run = "rendercv render 'Antonio Gabriel Curriculo.yaml'"
+
+[tasks.watch-pt]
+description = "Watch and re-render the Portuguese resume on changes"
+run = "rendercv render 'Antonio Gabriel Curriculo.yaml' --watch"
+
+
+[tasks.en]
+description = "Render the English resume"
+run = "rendercv render 'Antonio Gabriel Resume.yaml'"
+
+[tasks.watch-en]
+description = "Watch and re-render the English resume on changes"
+run = "rendercv render 'Antonio Gabriel Resume.yaml' --watch"

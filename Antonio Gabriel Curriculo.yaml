@@ -12,7 +12,7 @@ cv:
       username: ArtroxGabriel
   sections:
     perfil:
-      - "Engenheiro de Software com mais de 2 anos de experiência profissional no desenvolvimento de arquiteturas full-stack escaláveis. Possuo um histórico comprovado na implementação de micro-frontends modulares e sistemas de backend robustos utilizando Go, Java (Spring Boot) e TypeScript. Especialista na aplicação de frameworks de autenticação segura e no refinamento de processos de deploy em nuvem via Docker e AWS. Focado na qualidade de software e excelência técnica, com experiência sólida em manter altos padrões de testes unitários e otimizar a performance de plataformas de dados em larga escala."
+      - "Engenheiro de Software com mais de 3 anos de experiência profissional no desenvolvimento de arquiteturas full-stack escaláveis. Possuo um histórico comprovado na implementação de micro-frontends modulares e sistemas de backend robustos utilizando Go, Java (Spring Boot) e TypeScript. Especialista na aplicação de frameworks de autenticação segura e no refinamento de processos de deploy em nuvem via Docker e AWS. Focado na qualidade de software e excelência técnica, com experiência sólida em manter altos padrões de testes unitários e otimizar a performance de plataformas de dados em larga escala."
     experiencia_profissional:
       - company: GREat
         position: Engenheiro de software júnior
@@ -32,7 +32,7 @@ cv:
         highlights:
           - "**Desenvolvimento de Plataforma**: Atuação no desenvolvimento full stack de uma plataforma utilizando Next.js e Go, com foco em arquitetura web moderna e escalável."
           - "**Controle de Acesso e Autenticação**: Implementação de controle de permissões no backend com Casbin e autenticação no frontend com NextAuth."
-      - company: GREat
+      - company: Grupo de Redes de Computadores, Engenharia de Software e Sistemas (GREat)
         position: Desenvolvedor Full Stack
         location: Fortaleza, Brasil
         start_date: 2023-09

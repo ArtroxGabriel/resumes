@@ -12,7 +12,7 @@ cv:
       username: ArtroxGabriel
   sections:
     summary:
-      - "Software Engineer with over 2 years of experience specializing in scalable full-stack architectures. Proven track record in developing modular micro-frontends and robust backend systems using Go, Java (Spring Boot), and TypeScript. Expert in implementing secure authentication frameworks and streamlining cloud deployments via Docker and AWS. Passionate about code quality, having consistently maintained high testing standards and optimized performance for large-scale data platforms."
+      - "Software Engineer with over 3 years of experience specializing in scalable full-stack architectures. Proven track record in developing modular micro-frontends and robust backend systems using Go, Java (Spring Boot), and TypeScript. Expert in implementing secure authentication frameworks and streamlining cloud deployments via Docker and AWS. Passionate about code quality, having consistently maintained high testing standards and optimized performance for large-scale data platforms."
     experience:
       - company: GREat
         position: Junior Software Engineer
@@ -32,7 +32,7 @@ cv:
         highlights:
           - "**Platform Development**: Engaged in full-stack development of a platform using Next.js and Go, focusing on modern and scalable web architecture."
           - "**Access Control and Authentication**: Implemented permission control in the backend with Casbin and authentication in the frontend with NextAuth."
-      - company: GREat
+      - company: Computer Networks, Software Engineering and Systems Group (GREat)
         position: Full Stack Developer
         location: Fortaleza, Brazil
         start_date: 2023-09
@@ -82,9 +82,9 @@ settings:
     locale:
     typst_path: rendercv_output/Antonio Gabriel Resume.typ
     pdf_path: pdfs/Antonio Gabriel Resume.pdf
-    dont_generate_typst: false
-    dont_generate_pdf: false
     dont_generate_html: true
     dont_generate_markdown: true
     dont_generate_png: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
   bold_keywords: []

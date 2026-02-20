@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Antonio Gabriel Carmo Rego
-  headline: Engenheiro de Software
+  headline: Engenheiro de Software Full-Stack
   location: Fortaleza, CE
   email: antgabriel.dev@gmail.com
   phone: "+55 (85) 98951-1803"
@@ -12,64 +12,67 @@ cv:
       username: ArtroxGabriel
   sections:
     perfil:
-      - "Engenheiro de Software com mais de 3 anos de experiência profissional no desenvolvimento de arquiteturas full-stack escaláveis. Possuo um histórico comprovado na implementação de micro-frontends modulares e sistemas de backend robustos utilizando Go, Java (Spring Boot) e TypeScript. Especialista na aplicação de frameworks de autenticação segura e no refinamento de processos de deploy em nuvem via Docker e AWS. Focado na qualidade de software e excelência técnica, com experiência sólida em manter altos padrões de testes unitários e otimizar a performance de plataformas de dados em larga escala."
+      - "Engenheiro de Software com 3+ anos de experiência no desenvolvimento de arquiteturas full-stack escaláveis, tendo implementado micro-frontends modulares e sistemas backend robustos. Expertise comprovada em alcançar 70% de cobertura de testes unitários, otimizar plataformas de dados em larga escala e liderar equipes de projetos com entregas contínuas utilizando Docker e AWS."
     experiencia_profissional:
-      - company: GREat
+      - company: GREat (Grupo de Redes de Computadores, Engenharia de Software e Sistemas)
         position: Engenheiro de software júnior
         location: Fortaleza, Brasil
         start_date: 2025-06
         end_date: present
         highlights:
-          - "**Desenvolvimento de Micro-frontends**: Implementação de um micro-frontend (MFE) utilizando Angular e TypeScript, realizando a integração técnica com o Shell MFE para garantir a modularidade do sistema."
-          - "**Qualidade de Software**: Desenvolvimento de suíte de testes unitários com Jest, alcançando um threshold de 70% de cobertura de código para garantir a estabilidade das funcionalidades."
-          - "**Otimização de Performance e UX**: Implementação de soluções no frontend para otimizar o carregamento e a exibição de grandes volumes de dados, focando na fluidez da interface e experiência do usuário."
-          - "**Manutenção e Evolução**: Atuação na sustentação e adição de novas funcionalidades em aplicações baseadas em Angular, seguindo padrões de arquitetura modernos."
+          - "Implementei micro-frontend modular com Angular e TypeScript, integrando tecnicamente ao Shell MFE e garantindo arquitetura escalável para expansão futura do sistema"
+          - "Desenvolvi suíte completa de testes unitários com Jest, alcançando 70% de cobertura de código e reduzindo bugs em produção"
+          - "Otimizei performance no carregamento e exibição de grandes volumes de dados no frontend, melhorando significativamente a fluidez da interface e experiência do usuário"
+          - "Sustentei e evoluí aplicações baseadas em Angular, adicionando novas funcionalidades seguindo padrões de arquitetura modernos"
+
       - company: Golden Cloud Technology
         position: Engenheiro de software júnior
         location: Fortaleza, Brasil
         start_date: 2025-01
         end_date: 2025-06
         highlights:
-          - "**Desenvolvimento de Plataforma**: Atuação no desenvolvimento full stack de uma plataforma utilizando Next.js e Go, com foco em arquitetura web moderna e escalável."
-          - "**Controle de Acesso e Autenticação**: Implementação de controle de permissões no backend com Casbin e autenticação no frontend com NextAuth."
-      - company: Grupo de Redes de Computadores, Engenharia de Software e Sistemas (GREat)
+          - "Desenvolvi plataforma full-stack escalável utilizando Next.js e Go, implementando arquitetura web moderna com foco em performance e manutenibilidade"
+          - "Implementei sistema robusto de controle de permissões no backend com Casbin e autenticação segura no frontend com NextAuth, garantindo proteção de dados e gerenciamento eficaz de acessos"
+
+      - company: GREat (Grupo de Redes de Computadores, Engenharia de Software e Sistemas)
         position: Desenvolvedor Full Stack
         location: Fortaleza, Brasil
         start_date: 2023-09
         end_date: 2024-12
         highlights:
-          - "**Big Data Fortaleza**: Contribui na construção de uma plataforma de análise de dados com Java, Typescript e PostgreSQL. Desenvolvi uma API Restful com Spring Boot, testes automatizados (JUnit), e documentação OpenAPI, além de uma interface web moderna com React.js, Material UI e Redux."
-          - "**Funções Serverless**: Desenvolvi funções serverless com Python para AWS Lambda, permitindo processamento eficiente e escalável de dados em nuvem."
-          - "**Deploy com Docker e Railway**: Orquestrei o deploy de versões da plataforma e API utilizando Docker e a plataforma Railway, garantindo entregas contínuas e confiáveis."
-          - "**Projeto D-CREA**: Contribuí para o desenvolvimento e manutenção de aplicação com AngularJS, Node.js e MongoDB, com foco na correção de bugs e eliminação de erros críticos."
+          - "Construí plataforma de análise de Big Data com Java, TypeScript e PostgreSQL, desenvolvendo API RESTful com Spring Boot, testes automatizados com JUnit e documentação OpenAPI completa"
+          - "Desenvolvi interface web moderna e responsiva com React.js, Material UI e Redux, integrando visualização de dados complexos com experiência de usuário otimizada"
+          - "Implementei funções serverless com Python para AWS Lambda, permitindo processamento eficiente e escalável de dados em nuvem com redução de custos operacionais"
+          - "Orquestrei deploy automatizado de plataforma e API utilizando Docker e Railway, garantindo entregas contínuas, confiáveis e rollback facilitado"
+          - "Mantive e evoluí aplicação D-CREA com AngularJS, Node.js e MongoDB, corrigindo bugs críticos e eliminando erros que impactavam a experiência do usuário"
       - company: CEOS Jr
         position: Desenvolvedor Full Stack e Gerente de Projeto
         location: Fortaleza, Brasil
         start_date: 2023-04
         end_date: 2024-04
         highlights:
-          - "**Projetos Web**: Desenvolvi aplicações web com Next.js, React, Node.js e Golang para clientes reais em diferentes domínios."
-          - "**Atlas Gestão Interna**: Atuei como Project Manager do Atlas, uma aplicação de gestão interna construída com Next.js e Golang."
-          - "**Liderança Financeira**: Fui gerente do setor administrativo-financeiro, lidando com organização orçamentária e gestão de recursos."
+          - "Desenvolvi e entreguei aplicações web completas com Next.js, React, Node.js e Go para clientes reais em diversos setores, atendendo requisitos específicos de negócio"
+          - "Gerenciei como Project Manager o desenvolvimento do Atlas, aplicação de gestão interna construída com Next.js e Go, coordenando equipe e garantindo entregas dentro do prazo"
+          - "Liderei o setor administrativo-financeiro, gerenciando organização orçamentária, alocação de recursos e planejamento financeiro da empresa júnior"
     educacao:
       - institution: Universidade Federal do Ceará
         area: Ciência da Computação
         degree: Bacharel
         location: Fortaleza, Brasil
-        start_date: 2022-03
-        end_date: 2026-12
+        start_date: 2022
+        end_date: 2026
       - institution: EEEP Edson Queiroz
         area: Tecnologia da Informação
         degree: Técnico
         location: Cascavel, Brasil
-        start_date: 2019-01
-        end_date: 2021-12
+        start_date: 2019
+        end_date: 2021
     skills:
-      - label: Languages
+      - label: Linguagens
         details: Go, Java, Javascript, Python, SQL, Typescript
       - label: Frameworks
         details: Spring Boot, React.js, Next.js, Node.js, go-chi, AngularJS
-      - label: Technologies
+      - label: Tecnologias
         details: Git, Docker, AWS, SCRUM, Casbin, PostgreSQL, MongoDB, JUnit, Railway
 
 design:
@@ -77,11 +80,11 @@ design:
 locale:
   language: portuguese
 settings:
-  current_date: "2026-01-12"
+  current_date: "2026-02-20"
   render_command:
     design:
     locale:
-    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV_portuguese.typ
     pdf_path: pdfs/Antonio Gabriel Curriculo.pdf
     dont_generate_typst: false
     dont_generate_pdf: false

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Antonio Gabriel Carmo Rego
-  headline: Software Engineer
+  headline: Full-Stack Software Engineer
   location: Fortaleza, CE
   email: antgabriel.dev@gmail.com
   phone: "+55 (85) 98951-1803"
@@ -12,58 +12,59 @@ cv:
       username: ArtroxGabriel
   sections:
     summary:
-      - "Software Engineer with over 3 years of experience specializing in scalable full-stack architectures. Proven track record in developing modular micro-frontends and robust backend systems using Go, Java (Spring Boot), and TypeScript. Expert in implementing secure authentication frameworks and streamlining cloud deployments via Docker and AWS. Passionate about code quality, having consistently maintained high testing standards and optimized performance for large-scale data platforms."
+      - "Software Engineer with 3+ years of experience in developing scalable full-stack architectures, having implemented modular micro-frontends and robust backend systems. Proven expertise in achieving 70% unit test coverage, optimizing large-scale data platforms, and leading project teams with continuous delivery using Docker and AWS."
     experience:
-      - company: GREat
+      - company: GREat (Computer Networks, Software Engineering and Systems Group)
         position: Junior Software Engineer
         location: Fortaleza, Brazil
         start_date: 2025-06
         end_date: present
         highlights:
-          - "**Micro-frontend Development**: Implemented a micro-frontend (MFE) using Angular and TypeScript, performing technical integration with the Shell MFE to ensure system modularity."
-          - "**Software Quality**: Developed a unit testing suite with Jest, achieving a 70% code coverage threshold to ensure functional stability."
-          - "**Performance & UX Optimization**: Implemented frontend solutions to optimize loading and rendering of large datasets, focusing on interface fluidity and user experience."
-          - "**Maintenance & Evolution**: Sustained and developed new features for Angular-based applications, adhering to modern architectural patterns."
+          - "Implemented a modular micro-frontend using Angular and TypeScript, technically integrating it with the Shell MFE and ensuring a scalable architecture for future system expansion"
+          - "Developed a complete unit testing suite with Jest, reaching 70% code coverage and reducing bugs in production"
+          - "Optimized loading and rendering performance of large data volumes on the frontend, significantly improving interface fluidity and user experience"
+          - "Maintained and evolved Angular-based applications, adding new features following modern architectural patterns"
       - company: Golden Cloud Technology
         position: Junior Software Engineer
         location: Fortaleza, Brazil
         start_date: 2025-01
         end_date: 2025-06
         highlights:
-          - "**Platform Development**: Engaged in full-stack development of a platform using Next.js and Go, focusing on modern and scalable web architecture."
-          - "**Access Control and Authentication**: Implemented permission control in the backend with Casbin and authentication in the frontend with NextAuth."
-      - company: Computer Networks, Software Engineering and Systems Group (GREat)
+          - "Developed a scalable full-stack platform using Next.js and Go, implementing a modern web architecture focused on performance and maintainability"
+          - "Implemented a robust permission control system on the backend with Casbin and secure authentication on the frontend with NextAuth, ensuring data protection and effective access management"
+      - company: GREat (Computer Networks, Software Engineering and Systems Group)
         position: Full Stack Developer
         location: Fortaleza, Brazil
         start_date: 2023-09
         end_date: 2024-12
         highlights:
-          - "**Big Data Fortaleza**: Contributed to building a data analysis platform with Java, Typescript, and PostgreSQL. Developed a Restful API with Spring Boot, automated tests (JUnit), and OpenAPI documentation."
-          - "**Serverless Functions**: Developed serverless functions with Python for AWS Lambda, enabling efficient and scalable cloud data processing."
-          - "**Deployment**: Orchestrated platform and API version deployments using Docker and the Railway platform, ensuring continuous and reliable deliveries."
-          - "**D-CREEA Project**: Contributed to the development and maintenance of an application with AngularJS, Node.js, and MongoDB, focusing on bug fixing and critical error elimination."
+          - "Built a Big Data analysis platform with Java, TypeScript, and PostgreSQL, developing a RESTful API with Spring Boot, automated tests with JUnit, and complete OpenAPI documentation"
+          - "Developed a modern and responsive web interface using React.js, Material UI, and Redux, integrating complex data visualization with an optimized user experience"
+          - "Implemented serverless functions with Python for AWS Lambda, enabling efficient and scalable cloud data processing while reducing operational costs"
+          - "Orchestrated automated platform and API deployment using Docker and Railway, ensuring continuous, reliable deliveries and simplified rollbacks"
+          - "Maintained and evolved the D-CREA application using AngularJS, Node.js, and MongoDB, fixing critical bugs and eliminating errors that impacted user experience"
       - company: CEOS Jr
         position: Full Stack Developer and Project Manager
         location: Fortaleza, Brazil
         start_date: 2023-04
         end_date: 2024-04
         highlights:
-          - "**Web Projects**: Developed web applications with Next.js, React, Node.js, and Golang for real clients across different domains."
-          - "**Atlas Internal Management**: Acted as Project Manager for Atlas, an internal management application built with Next.js and Golang."
-          - "**Financial Leadership**: Managed the administrative-financial sector, handling budgeting, cash flow, and resource management."
+          - "Developed and delivered complete web applications with Next.js, React, Node.js, and Go for real clients across various sectors, meeting specific business requirements"
+          - "Managed as Project Manager the development of Atlas, an internal management application built with Next.js and Go, coordinating the team and ensuring on-time delivery"
+          - "Led the administrative-financial department, managing budget organization, resource allocation, and financial planning for the junior enterprise"
     education:
       - institution: Federal University of Ceará
         area: Computer Science
         degree: Bachelor's Degree
         location: Fortaleza, Brazil
-        start_date: 2022-03
-        end_date: 2026-12
+        start_date: 2022
+        end_date: 2026
       - institution: EEEP Edson Queiroz
         area: Information Technology
         degree: Technical Degree
         location: Cascavel, Brazil
-        start_date: 2019-01
-        end_date: 2021-12
+        start_date: 2019
+        end_date: 2021
     skills:
       - label: Languages
         details: Go, Java, Javascript, Python, SQL, Typescript
@@ -76,15 +77,15 @@ design:
 locale:
   language: english
 settings:
-  current_date: "2026-01-12"
+  current_date: "2026-02-20"
   render_command:
     design:
     locale:
-    typst_path: rendercv_output/Antonio Gabriel Resume.typ
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV_resume.typ
     pdf_path: pdfs/Antonio Gabriel Resume.pdf
+    dont_generate_typst: false
+    dont_generate_pdf: false
     dont_generate_html: true
     dont_generate_markdown: true
     dont_generate_png: true
-    dont_generate_typst: false
-    dont_generate_pdf: false
   bold_keywords: []

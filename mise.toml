@@ -1,16 +1,11 @@
 [tools]
 python = "3.14"
 
-[tasks.pt]
-description = "Render the Portuguese resume"
-sources = ['Antonio Gabriel Curriculo.yaml']
-run = "rendercv render 'Antonio Gabriel Curriculo.yaml'"
-
-[tasks.en]
-sources = ['Antonio Gabriel Resume.yaml']
-description = "Render the English resume"
-run = "rendercv render 'Antonio Gabriel Resume.yaml'"
-
-[tasks.all]
-description = "Render all resumes"
-run = [{ tasks = ["pt", "en"] }]
+[tasks]
+pt = { description = "Render the Portuguese resume", sources = [
+  'Antonio Gabriel Curriculo.yaml',
+], run = "rendercv render 'Antonio Gabriel Curriculo.yaml'" }
+en = { description = "Render the English resume", sources = [
+  'Antonio Gabriel Resume.yaml',
+], run = "rendercv render 'Antonio Gabriel Resume.yaml'" }
+all = { description = "Render all resumes", run = [{ tasks = ["pt", "en"] }] }

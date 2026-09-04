@@ -1,11 +1,26 @@
+#:schema https://mise.jdx.dev/schema/mise.json
 [tools]
 python = "3.14"
 
-[tasks]
-pt = { description = "Render the Portuguese resume", sources = [
-  'Antonio Gabriel Curriculo.yaml',
-], run = "rendercv render 'Antonio Gabriel Curriculo.yaml'" }
-en = { description = "Render the English resume", sources = [
-  'Antonio Gabriel Resume.yaml',
-], run = "rendercv render 'Antonio Gabriel Resume.yaml'" }
-all = { description = "Render all resumes", run = [{ tasks = ["pt", "en"] }] }
+[env]
+_.python.venv = { path = ".venv", create = true }
+
+[tasks.setup]
+description = "Set up virtual environment and install dependencies"
+run = 'pip install -U "rendercv[full]"'
+
+[tasks.pt]
+description = "Render the Portuguese resume"
+sources = ["Antonio Gabriel Curriculo.yaml"]
+outputs = ["pdfs/Antonio Gabriel Curriculo.pdf"]
+run = "rendercv render 'Antonio Gabriel Curriculo.yaml'"
+
+[tasks.en]
+description = "Render the English resume"
+sources = ["Antonio Gabriel Resume.yaml"]
+outputs = ["pdfs/Antonio Gabriel Resume.pdf"]
+run = "rendercv render 'Antonio Gabriel Resume.yaml'"
+
+[tasks.all]
+description = "Render all resumes"
+run = [{ tasks = ["pt", "en"] }]

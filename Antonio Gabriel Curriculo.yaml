@@ -15,10 +15,18 @@ cv:
       - "Engenheiro de Software com 3+ anos de experiência no desenvolvimento de arquiteturas full-stack escaláveis, tendo implementado micro-frontends modulares e sistemas backend robustos. Expertise comprovada em alcançar 70% de cobertura de testes unitários, otimizar plataformas de dados em larga escala e liderar equipes de projetos com entregas contínuas utilizando Docker e AWS."
     experiencia_profissional:
       - company: GREat (Grupo de Redes de Computadores, Engenharia de Software e Sistemas)
+        position: Engenheiro de software Pleno
+        location: Fortaleza, Brasil
+        start_date: 2026-05
+        end_date: present
+        highlights:
+          - "TODO EDIT"
+
+      - company: GREat (Grupo de Redes de Computadores, Engenharia de Software e Sistemas)
         position: Engenheiro de software júnior
         location: Fortaleza, Brasil
         start_date: 2025-06
-        end_date: present
+        end_date: 2026-04
         highlights:
           - "Implementei micro-frontend modular com Angular e TypeScript, integrando tecnicamente ao Shell MFE e garantindo arquitetura escalável para expansão futura do sistema"
           - "Desenvolvi suíte completa de testes unitários com Jest, alcançando 70% de cobertura de código e reduzindo bugs em produção"

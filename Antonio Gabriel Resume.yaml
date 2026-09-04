@@ -17,8 +17,16 @@ cv:
       - company: GREat (Computer Networks, Software Engineering and Systems Group)
         position: Junior Software Engineer
         location: Fortaleza, Brazil
-        start_date: 2025-06
+        start_date: 2026-05
         end_date: present
+        highlights:
+          - "TODO EDIT"
+
+      - company: GREat (Computer Networks, Software Engineering and Systems Group)
+        position: Junior Software Engineer
+        location: Fortaleza, Brazil
+        start_date: 2025-06
+        end_date: 2026-04
         highlights:
           - "Implemented a modular micro-frontend using Angular and TypeScript, technically integrating it with the Shell MFE and ensuring a scalable architecture for future system expansion"
           - "Developed a complete unit testing suite with Jest, reaching 70% code coverage and reducing bugs in production"

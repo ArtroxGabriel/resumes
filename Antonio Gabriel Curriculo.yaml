@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Antonio Gabriel Carmo Rego
   headline: Engenheiro de Software Full-Stack
@@ -20,7 +20,9 @@ cv:
         start_date: 2026-05
         end_date: present
         highlights:
-          - "TODO EDIT"
+          - "Atuei em conjunto com a equipe de arquitetura no planejamento e estruturação de APIs RESTful escaláveis utilizando Spring Boot Java"
+          - "Realizei revisões e auditorias abrangentes de segurança em projeto em andamento, identificando e mitigando vulnerabilidades críticas"
+          - "Propus e liderei a reformulação estrutural e arquitetural do projeto, aprimorando a modularidade, segurança e manutenibilidade do backend"
 
       - company: GREat (Grupo de Redes de Computadores, Engenharia de Software e Sistemas)
         position: Engenheiro de software júnior
@@ -77,20 +79,16 @@ cv:
         end_date: 2021
     skills:
       - label: Linguagens
-        details: Go, Java, Javascript, Python, SQL, Typescript
+        details: Java, Go, TypeScript, JavaScript, Python, SQL
       - label: Frameworks
-        details: Spring Boot, React.js, Next.js, Node.js, go-chi, AngularJS
+        details: Spring Boot (3 e 4), React.js, Next.js, Node.js, go-chi, AngularJS
       - label: Tecnologias
-        details: Git, Docker, AWS, SCRUM, Casbin, PostgreSQL, MongoDB, JUnit, Railway
-
-design:
-  theme: engineeringclassic
+        details: Docker, AWS, Git, PostgreSQL, MongoDB, JUnit, Jest, Casbin, Railway, SCRUM
 locale:
   language: portuguese
 settings:
-  current_date: "2026-02-20"
   render_command:
-    design:
+    design: design.yaml
     locale:
     typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV_portuguese.typ
     pdf_path: pdfs/Antonio Gabriel Curriculo.pdf

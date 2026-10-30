@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Antonio Gabriel Carmo Rego
   headline: Full-Stack Software Engineer
@@ -15,12 +15,14 @@ cv:
       - "Software Engineer with 3+ years of experience in developing scalable full-stack architectures, having implemented modular micro-frontends and robust backend systems. Proven expertise in achieving 70% unit test coverage, optimizing large-scale data platforms, and leading project teams with continuous delivery using Docker and AWS."
     experience:
       - company: GREat (Computer Networks, Software Engineering and Systems Group)
-        position: Junior Software Engineer
+        position: Mid-level Software Engineer
         location: Fortaleza, Brazil
         start_date: 2026-05
         end_date: present
         highlights:
-          - "TODO EDIT"
+          - "Collaborated directly with project architects to plan and design scalable RESTful APIs with Spring Boot Java"
+          - "Conducted comprehensive security reviews across ongoing services, identifying critical vulnerabilities and executing mitigation strategies"
+          - "Proposed and drove a major architectural and structural reformulation, significantly enhancing project modularity, security, and maintainability"
 
       - company: GREat (Computer Networks, Software Engineering and Systems Group)
         position: Junior Software Engineer
@@ -75,19 +77,16 @@ cv:
         end_date: 2021
     skills:
       - label: Languages
-        details: Go, Java, Javascript, Python, SQL, Typescript
+        details: Java, Go, TypeScript, JavaScript, Python, SQL
       - label: Frameworks
-        details: Spring Boot, React.js, Next.js, Node.js, go-chi, AngularJS
+        details: Spring Boot (3 & 4), React.js, Next.js, Node.js, go-chi, AngularJS
       - label: Technologies
-        details: Git, Docker, AWS, SCRUM, Casbin, PostgreSQL, MongoDB, JUnit, Railway
-design:
-  theme: engineeringclassic
+        details: Docker, AWS, Git, PostgreSQL, MongoDB, JUnit, Jest, Casbin, Railway, SCRUM
 locale:
   language: english
 settings:
-  current_date: "2026-02-20"
   render_command:
-    design:
+    design: design.yaml
     locale:
     typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV_resume.typ
     pdf_path: pdfs/Antonio Gabriel Resume.pdf

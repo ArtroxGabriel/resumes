@@ -11,13 +11,13 @@ run = 'pip install -U "rendercv[full]"'
 
 [tasks.pt]
 description = "Render the Portuguese resume"
-sources = ["Antonio Gabriel Curriculo.yaml"]
+sources = ["Antonio Gabriel Curriculo.yaml", "design.yaml"]
 outputs = ["pdfs/Antonio Gabriel Curriculo.pdf"]
 run = "rendercv render 'Antonio Gabriel Curriculo.yaml'"
 
 [tasks.en]
 description = "Render the English resume"
-sources = ["Antonio Gabriel Resume.yaml"]
+sources = ["Antonio Gabriel Resume.yaml", "design.yaml"]
 outputs = ["pdfs/Antonio Gabriel Resume.pdf"]
 run = "rendercv render 'Antonio Gabriel Resume.yaml'"
 
